@@ -24,6 +24,7 @@ gem 'coffee-rails', '~> 4.2'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'merit'
+gem 'jquery-datetimepicker-rails'
 # Used to implement at.js for auto complete mentions/emojis
 gem 'jquery-atwho-rails'
 # Use twitter bootstrap sass
@@ -51,7 +52,6 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'spring'
-  gem 'better_errors'
   gem 'binding_of_caller'
   gem 'letter_opener'
 end
