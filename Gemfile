@@ -23,8 +23,15 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'merit'
+# Used to implement at.js for auto complete mentions/emojis
+gem 'jquery-atwho-rails'
+# Use twitter bootstrap sass
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+gem 'font-awesome-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+#gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -43,7 +50,32 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem 'spring'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'letter_opener'
 end
+
+gem 'devise'
+gem 'carrierwave'
+gem 'friendly_id', '~> 5.0'
+
+
+gem 'will_paginate', '~> 3.1.0'
+gem 'public_activity'
+
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'acts_as_commentable'
+gem 'acts_as_follower'
+gem 'counter_culture', '~> 0.1.33'
+
+gem 'faker'
+gem 'populator'
+gem 'auto_html', '~>1.6.4'
+gem 'sanitize'
+
+gem 'active_model_serializers'
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
