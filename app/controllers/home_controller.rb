@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
-  def front
-  end
+  	def front
+  		@post = Post.new
+  	end
 end
